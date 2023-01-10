@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Recent ERC20 Token Transactions</title>
+  </head>
+  <body>
+    <h1>Recent ERC20 Token Transactions</h1>
+    <ul>
+      {% for tx_tag in tx_tags %}
+        <li>{{ tx_tag }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
